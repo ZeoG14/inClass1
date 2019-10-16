@@ -50,8 +50,8 @@ class PersonTest {
 
 			Person x = new Person(firstName, lastName);
 			
-			String expected = "First Name: " + firstName
-					+ "Last Name: " + lastName;
+			String expected = "*** First Name: " + firstName 
+					+ " Last Name: " + lastName + "***";
 			
 			String actual = x.describeSelf();
 			assertEquals(expected, actual);
@@ -72,8 +72,8 @@ class PersonTest {
 
 			Person x = new Person(firstName, lastName);
 			
-			String expected = "First Name: " + firstName
-					+ "Last Name: " + lastName;
+			String expected = "*** First Name: " + firstName 
+					+ " Last Name: " + lastName + "***";
 			
 			String actual = x.describeSelf();
 			assertEquals(expected, actual);
